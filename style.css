@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  input {
+    padding: 10px;
+    width: 250px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 15px;
+    font-size: 16px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: #ff5a5f;
+    color: white;
+    border: none;
+  }
+  
+  button:hover {
+    background-color: #e0484d;
+  }
+  
+  #resultado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .gif-container {
+    margin: 10px;
+  }
+  
+  .gif-container img {
+    max-width: 200px;
+    border-radius: 10px;
+  }
